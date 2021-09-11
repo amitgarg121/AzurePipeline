@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Automation Regression Suite" duration-ms="96420" started-at="2021-09-11T18:37:42 IST" finished-at="2021-09-11T18:39:19 IST">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="64831" started-at="2021-09-11T18:37:42 IST" finished-at="2021-09-11T18:38:47 IST">
+      <class name="com.Mercury.testcases.AzurePipelineDemo">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Mercury.testcases.AzurePipelineDemo@612679d6]" name="setup" is-config="true" duration-ms="48099" started-at="2021-09-11T18:37:42 IST" finished-at="2021-09-11T18:38:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freshworkslogtest()[pri:1, instance:com.Mercury.testcases.AzurePipelineDemo@612679d6]" name="freshworkslogtest" duration-ms="1014" started-at="2021-09-11T18:38:30 IST" finished-at="2021-09-11T18:38:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshworkslogtest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Mercury.testcases.AzurePipelineDemo@612679d6]" name="tearDown" is-config="true" duration-ms="1514" started-at="2021-09-11T18:38:32 IST" finished-at="2021-09-11T18:38:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Mercury.testcases.AzurePipelineDemo@612679d6]" name="setup" is-config="true" duration-ms="11869" started-at="2021-09-11T18:38:34 IST" finished-at="2021-09-11T18:38:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freshworkstitletest()[pri:2, instance:com.Mercury.testcases.AzurePipelineDemo@612679d6]" name="freshworkstitletest" duration-ms="170" started-at="2021-09-11T18:38:46 IST" finished-at="2021-09-11T18:38:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshworkstitletest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Mercury.testcases.AzurePipelineDemo@612679d6]" name="tearDown" is-config="true" duration-ms="1270" started-at="2021-09-11T18:38:46 IST" finished-at="2021-09-11T18:38:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Mercury.testcases.AzurePipelineDemo -->
+    </test> <!-- Chrome Test -->
+    <test name="Edge Test" duration-ms="96420" started-at="2021-09-11T18:37:42 IST" finished-at="2021-09-11T18:39:19 IST">
+      <class name="com.Mercury.testcases.AzurePipelineDemo">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Mercury.testcases.AzurePipelineDemo@704921a5]" name="setup" is-config="true" duration-ms="81862" started-at="2021-09-11T18:37:42 IST" finished-at="2021-09-11T18:39:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freshworkslogtest()[pri:1, instance:com.Mercury.testcases.AzurePipelineDemo@704921a5]" name="freshworkslogtest" duration-ms="1195" started-at="2021-09-11T18:39:04 IST" finished-at="2021-09-11T18:39:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshworkslogtest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Mercury.testcases.AzurePipelineDemo@704921a5]" name="tearDown" is-config="true" duration-ms="968" started-at="2021-09-11T18:39:05 IST" finished-at="2021-09-11T18:39:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Mercury.testcases.AzurePipelineDemo@704921a5]" name="setup" is-config="true" duration-ms="11315" started-at="2021-09-11T18:39:06 IST" finished-at="2021-09-11T18:39:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freshworkstitletest()[pri:2, instance:com.Mercury.testcases.AzurePipelineDemo@704921a5]" name="freshworkstitletest" duration-ms="109" started-at="2021-09-11T18:39:18 IST" finished-at="2021-09-11T18:39:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshworkstitletest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Mercury.testcases.AzurePipelineDemo@704921a5]" name="tearDown" is-config="true" duration-ms="833" started-at="2021-09-11T18:39:18 IST" finished-at="2021-09-11T18:39:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Mercury.testcases.AzurePipelineDemo -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Test Automation Regression Suite -->
+</testng-results>

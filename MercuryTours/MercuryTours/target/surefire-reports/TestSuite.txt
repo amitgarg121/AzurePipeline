@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 33.916 s <<< FAILURE! - in TestSuite
+fnBookFlightTest(com.Mercury.testcases.MercuryFlightTest)  Time elapsed: 4.828 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using name=userName
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAP-TZ-0X65353', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_40'
+Driver info: driver.version: RemoteWebDriver
+	at com.Mercury.testcases.MercuryFlightTest.fnBookFlightTest(MercuryFlightTest.java:32)
+
+setup(com.Mercury.testcases.MercuryFlightTest)  Time elapsed: 18.753 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from chrome not reachable
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAP-TZ-0X65353', ip: '192.168.1.10', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_40'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00469563+2725219]
+	Ordinal0 [0x00368551+1672529]
+	Ordinal0 [0x00250202+524802]
+	Ordinal0 [0x002499B2+498098]
+	Ordinal0 [0x0024A09B+499867]
+	Ordinal0 [0x0024AFF5+503797]
+	Ordinal0 [0x00246994+485780]
+	Ordinal0 [0x00250FF0+528368]
+	Ordinal0 [0x001FD6C9+186057]
+	Ordinal0 [0x001FCA3D+182845]
+	Ordinal0 [0x001FA94B+174411]
+	Ordinal0 [0x001E2528+75048]
+	Ordinal0 [0x001E35A0+79264]
+	Ordinal0 [0x001E3539+79161]
+	Ordinal0 [0x0037D607+1758727]
+	GetHandleVerifier [0x00586546+1050150]
+	GetHandleVerifier [0x00586291+1049457]
+	GetHandleVerifier [0x005910D7+1094071]
+	GetHandleVerifier [0x00586B46+1051686]
+	Ordinal0 [0x00375B06+1727238]
+	Ordinal0 [0x0037EB7B+1764219]
+	Ordinal0 [0x0037ECE3+1764579]
+	Ordinal0 [0x00394C05+1854469]
+	BaseThreadInitThunk [0x769B6359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BE7C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77BE7BF4+180]
+
+
